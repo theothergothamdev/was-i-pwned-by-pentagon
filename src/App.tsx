@@ -68,8 +68,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container sx={{ px: 4, pt: { md: 20, sm: 5 } }}>
-        <Typography textAlign="center" variant="h3" sx={{ mb: 4 }}>
+      <Container sx={{ px: 3 }}>
+        <Typography textAlign="center" variant="h3" sx={{ mb: 4, mt: { xs: 10, md: 20 } }}>
           Was I f**ked by Pentagon?
         </Typography>
 
